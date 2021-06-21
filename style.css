@@ -285,10 +285,10 @@ section.logo-section {
 .item:hover{
     transform: translateY(-12px);
 }
-.item::before{
+.item::before {
     content: "";
     position: absolute;
-    top: -132px;
+    top: -196px;
     left: 0;
     right: 0;
     width: 90%;
@@ -491,4 +491,145 @@ label {
 .our-company-img {
     text-align: right;
     margin-top: 35px;
+}
+
+
+/* service */
+.service-title h6{}
+.service-title h2{}
+.service-title p{}
+.service-tab ul li{
+    flex: 1 1 auto;
+}
+.sevices-tab-item {
+    border-bottom: 2px solid #dddd;
+    padding-bottom: 17px;
+    margin-bottom: 43px !important;
+}
+.sevices-tab-item li span i {
+    background: #fff;
+    color: #504c4c;
+    height: 80px;
+    width: 80px;
+    font-size: 40px;
+    line-height: 69px;
+    border-radius: 50%;
+}
+.sevices-tab-item li strong{
+
+}
+
+
+.service-tab ul li{}
+.service-tab-text h3 {
+    font-size: 25px;
+}
+.service-tab-text p {
+    font-size: 15px;
+}
+.service-tab-text ul{
+    list-style: none;
+    padding-left:0 ;
+}
+.service-tab-text ul li {
+    padding-left: 20px;
+    position: relative;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.service-tab-text ul li::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    background: rgb(255, 0, 0);
+    border-radius: 50%;
+}
+.tesntimonial-section{}
+.testimonial-content{}
+.testimonial-content p {
+    font-size: 23px;
+}
+.client-details{}
+.client-details h5 {
+    color: #e73a3e;
+    margin-bottom: 0;
+}
+.client-details p{}
+
+.testimonial-iamge{}
+.testimonial-iamge img{}
+.team-member{}
+.member-image{
+    position: relative;
+}
+.member-image img{
+    width: 100%;
+    height: auto;
+}
+.member-social-profile {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.member-social-profile ul {
+    text-align: center;
+    padding-left: 0;
+    margin-bottom: 25px;
+}
+.member-social-profile ul li{
+    display: inline-block;
+
+    transition: .5s ease-in-out;
+    transform: translateY(45px);
+    opacity: 0;
+    visibility: hidden;
+}
+.member-image:hover .member-social-profile ul li{
+    opacity:1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.member-image .member-social-profile ul li:nth-child(1){
+    transition-delay: .2s;
+}
+.member-image .member-social-profile ul li:nth-child(2){
+    transition-delay: .3s;
+}
+.member-image .member-social-profile ul li:nth-child(3){
+    transition-delay: .4s;
+}
+.member-image .member-social-profile ul li:nth-child(4){
+    transition-delay: .5s;
+}
+.member-social-profile ul li a {
+	display: block;
+	font-size: 20px;
+	height: 40px;
+	width: 40px;
+	background: #fff;
+	border-radius: 50%;
+    line-height: 40px;
+    color: #444;
+    transition: .4s;
+}
+.member-social-profile ul li a:hover{
+    color: #fff;
+    background-color: red;
+}
+
+.member-content {
+    margin-top: 28px;
+}
+.member-content h4 {
+    color: #e73a3e;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.member-content p {
+    color: #666;
 }
